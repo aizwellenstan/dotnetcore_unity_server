@@ -1,0 +1,24 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2/linux-x64",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {},
+    ".NETCoreApp,Version=v2.2/linux-x64": {
+      "KcpLib/1.0.0": {
+        "runtime": {
+          "KcpLib.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "KcpLib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

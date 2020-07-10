@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "Server.App": {
+      "commandName": "Project",
+      "commandLineArgs": "--appId=1 --appType=AllServer --config=../Config/StartConfig/LocalAllServer.txt --configOther=../Config/{0}.txt",
+      "workingDirectory": "../../Bin"
+    },
+    "Benchmark": {
+      "commandName": "Project",
+      "commandLineArgs": "--appId=2 --appType=Benchmark --config=../Config/StartConfig/Benchmark.txt --configOther=../Config/{0}.txt",
+      "workingDirectory": "../../Bin"
+    }
+  }
+}

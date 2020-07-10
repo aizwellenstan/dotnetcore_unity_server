@@ -1,0 +1,94 @@
+{
+	"apps": [
+		{
+			"name": "Jacfit-Realm",
+			"cwd": "Publish/linux-x64",
+			"script": "App.dll",
+			"args": "--appId=2 --appType=Realm --config=../../Config/StartConfig/Release.txt --configOther=../../Config/{0}.txt",
+			"exec_interpreter": "dotnet",
+			"exec_mode": "fork",
+			"autorestart": true
+		},
+		{
+			"name": "Jacfit-Location",
+			"cwd": "Publish/linux-x64",
+			"script": "App.dll",
+			"args": "--appId=3 --appType=Location --config=../../Config/StartConfig/Release.txt --configOther=../../Config/{0}.txt",
+			"exec_interpreter": "dotnet",
+			"exec_mode": "fork",
+			"autorestart": true
+		},{
+			"name": "Jacfit-Gate",
+			"cwd": "Publish/linux-x64",
+			"script": "App.dll",
+			"args": "--appId=4 --appType=Gate --config=../../Config/StartConfig/Release.txt --configOther=../../Config/{0}.txt",
+			"exec_interpreter": "dotnet",
+			"exec_mode": "fork",
+			"autorestart": true
+		},{
+			"name": "Jacfit-Gate",
+			"cwd": "Publish/linux-x64",
+			"script": "App.dll",
+			"args": "--appId=5 --appType=Gate --config=../../Config/StartConfig/Release.txt --configOther=../../Config/{0}.txt",
+			"exec_interpreter": "dotnet",
+			"exec_mode": "fork",
+			"autorestart": true
+		},{
+			"name": "Jacfit-Gate",
+			"cwd": "Publish/linux-x64",
+			"script": "App.dll",
+			"args": "--appId=6 --appType=Gate --config=../../Config/StartConfig/Release.txt --configOther=../../Config/{0}.txt",
+			"exec_interpreter": "dotnet",
+			"exec_mode": "fork",
+			"autorestart": true
+		},{
+			"name": "Jacfit-Gate",
+			"cwd": "Publish/linux-x64",
+			"script": "App.dll",
+			"args": "--appId=7 --appType=Gate --config=../../Config/StartConfig/Release.txt --configOther=../../Config/{0}.txt",
+			"exec_interpreter": "dotnet",
+			"exec_mode": "fork",
+			"autorestart": true
+		},{
+			"name": "Jacfit-Map",
+			"cwd": "Publish/linux-x64",
+			"script": "App.dll",
+			"args": "--appId=8 --appType=Map --config=../../Config/StartConfig/Release.txt --configOther=../../Config/{0}.txt",
+			"exec_interpreter": "dotnet",
+			"exec_mode": "fork",
+			"autorestart": true
+		},{
+			"name": "Jacfit-Map",
+			"cwd": "Publish/linux-x64",
+			"script": "App.dll",
+			"args": "--appId=9 --appType=Map --config=../../Config/StartConfig/Release.txt --configOther=../../Config/{0}.txt",
+			"exec_interpreter": "dotnet",
+			"exec_mode": "fork",
+			"autorestart": true
+		},{
+			"name": "Jacfit-DB",
+			"cwd": "Publish/linux-x64",
+			"script": "App.dll",
+			"args": "--appId=10 --appType=DB --config=../../Config/StartConfig/Release.txt --configOther=../../Config/{0}.txt",
+			"exec_interpreter": "dotnet",
+			"exec_mode": "fork",
+			"autorestart": true
+		},{
+			"name": "Jacfit-Lobby",
+			"cwd": "Publish/linux-x64",
+			"script": "App.dll",
+			"args": "--appId=11 --appType=Lobby --config=../../Config/StartConfig/Release.txt --configOther=../../Config/{0}.txt",
+			"exec_interpreter": "dotnet",
+			"exec_mode": "fork",
+			"autorestart": true
+		},{
+			"name": "Jacfit-Lobby",
+			"cwd": "Publish/linux-x64",
+			"script": "App.dll",
+			"args": "--appId=12 --appType=Lobby --config=../../Config/StartConfig/Release.txt --configOther=../../Config/{0}.txt",
+			"exec_interpreter": "dotnet",
+			"exec_mode": "fork",
+			"autorestart": true
+		}
+  	]
+}

@@ -1,0 +1,132 @@
+2020-07-10 18:32:57.5200 AllServer 0001 System.Exception: load config file fail, path: ../../Config/AnnouncementSetting.txt System.IO.FileNotFoundException: Could not find file 'D:\jacfit\1.1.36_Server\Config\AnnouncementSetting.txt'.
+File name: 'D:\jacfit\1.1.36_Server\Config\AnnouncementSetting.txt'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ETModel.ConfigHelper.GetText(String key) in D:\jacfit\1.1.36_Server\Server\Model\Module\Config\ConfigHelper.cs:line 28
+   at ETModel.ConfigHelper.GetText(String key) in D:\jacfit\1.1.36_Server\Server\Model\Module\Config\ConfigHelper.cs:line 33
+   at ETModel.ACategory`1.BeginInit() in D:\jacfit\1.1.36_Server\Unity\Assets\Model\Module\Config\ACategory.cs:line 28
+   at ETHotfix.ConfigComponentHelper.Load(ConfigComponent self) in D:\jacfit\1.1.36_Server\Server\Hotfix\Module\Config\ConfigComponentSystem.cs:line 61
+   at ETHotfix.ConfigComponentHelper.Awake(ConfigComponent self) in D:\jacfit\1.1.36_Server\Server\Hotfix\Module\Config\ConfigComponentSystem.cs:line 29
+   at ETHotfix.ConfigAwakeSystem.Awake(ConfigComponent self) in D:\jacfit\1.1.36_Server\Server\Hotfix\Module\Config\ConfigComponentSystem.cs:line 12
+   at ETModel.AwakeSystem`1.Run(Object o) in D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 39
+   at ETModel.EventSystem.Awake(Component component) in D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\EventSystem.cs:line 258 
+ Main at offset 11131 in file:line:column D:\jacfit\1.1.36_Server\Server\App\Program.cs:200:7
+AddComponent<K> at offset 570 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\Entity.cs:98:4
+CreateWithParent<T> at offset 501 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\ComponentFactory.cs:51:4
+Awake at offset 351 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\EventSystem.cs:258:6
+Error at offset 115 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Base\Log.cs:31:4
+Error at offset 58 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-07-10 18:32:57.6176 AllServer 0001 GoogleCredential 's serviceAccountKey.json doesnt exist on the path! 
+ Main at offset 11806 in file:line:column D:\jacfit\1.1.36_Server\Server\App\Program.cs:212:7
+AddComponent<K> at offset 570 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\Entity.cs:98:4
+CreateWithParent<T> at offset 501 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\ComponentFactory.cs:51:4
+Awake at offset 351 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\EventSystem.cs:258:6
+Run at offset 131 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:39:4
+Awake at offset 50 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Module\Entity\Firebase\FirebaseSystem.cs:11:13
+Awake at offset 672 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Module\Entity\Firebase\FirebaseComponent.cs:62:17
+Error at offset 76 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Base\Log.cs:36:4
+Error at offset 58 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-07-10 18:32:57.7193 AllServer 0001 System.Exception: ConfigComponent not found key: ETModel.RoadSetting
+   at ETHotfix.ConfigComponentHelper.GetAll(ConfigComponent self, Type type) in D:\jacfit\1.1.36_Server\Server\Hotfix\Module\Config\ConfigComponentSystem.cs:line 121
+   at ETHotfix.Event_SyncAllRoamingRoom.Run() in D:\jacfit\1.1.36_Server\Server\Hotfix\Event\Event_SyncAllRoamingRoom.cs:line 19
+   at ETModel.OneThreadSynchronizationContext.Post(SendOrPostCallback callback, Object state) in D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\OneThreadSynchronizationContext.cs:line 36 
+ Run at offset 238 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\EventSystem.cs:576:6
+Handle at offset 52 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Event\IEvent.cs:17:4
+Run at offset 203 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 73 in file:line:column <filename unknown>:0:0
+MoveNext at offset 371 in file:line:column D:\jacfit\1.1.36_Server\Server\Hotfix\Event\Event_SyncAllRoamingRoom.cs:19:13
+SetException at offset 138 in file:line:column <filename unknown>:0:0
+ThrowAsync at offset 160 in file:line:column <filename unknown>:0:0
+Post at offset 232 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\OneThreadSynchronizationContext.cs:36:21
+Error at offset 115 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Base\Log.cs:31:4
+Error at offset 58 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-07-10 18:32:57.8084 AllServer 0001 System.Exception: http server error: 5 ---> System.Net.HttpListenerException: アクセスが拒否されました。
+   at System.Net.HttpListener.AddPrefixCore(String registeredPrefix)
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at ETModel.HttpComponent.Start() in D:\jacfit\1.1.36_Server\Server\Model\Module\Http\HttpComponent.cs:line 121
+   --- End of inner exception stack trace ---
+   at ETModel.HttpComponent.Start() in D:\jacfit\1.1.36_Server\Server\Model\Module\Http\HttpComponent.cs:line 127
+   at ETModel.HttpComponentComponentStartSystem.Start(HttpComponent self) in D:\jacfit\1.1.36_Server\Server\Model\Module\Http\HttpComponent.cs:line 33
+   at ETModel.StartSystem`1.Run(Object o) in D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\IStartSystem.cs:line 15
+   at ETModel.EventSystem.Start() in D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\EventSystem.cs:line 449 
+ Main at offset 13505 in file:line:column D:\jacfit\1.1.36_Server\Server\App\Program.cs:256:7
+Update at offset 84 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\EventSystem.cs:487:4
+Start at offset 367 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\EventSystem.cs:449:7
+Error at offset 115 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Base\Log.cs:31:4
+Error at offset 58 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-07-10 18:34:19.9767 AllServer 0001 System.Exception: load config file fail, path: ../../Config/AnnouncementSetting.txt System.IO.FileNotFoundException: Could not find file 'D:\jacfit\1.1.36_Server\Config\AnnouncementSetting.txt'.
+File name: 'D:\jacfit\1.1.36_Server\Config\AnnouncementSetting.txt'
+   at System.IO.FileStream.ValidateFileHandle(SafeFileHandle fileHandle)
+   at System.IO.FileStream.CreateFileOpenHandle(FileMode mode, FileShare share, FileOptions options)
+   at System.IO.FileStream..ctor(String path, FileMode mode, FileAccess access, FileShare share, Int32 bufferSize, FileOptions options)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks, Int32 bufferSize)
+   at System.IO.StreamReader..ctor(String path, Encoding encoding, Boolean detectEncodingFromByteOrderMarks)
+   at System.IO.File.InternalReadAllText(String path, Encoding encoding)
+   at System.IO.File.ReadAllText(String path)
+   at ETModel.ConfigHelper.GetText(String key) in D:\jacfit\1.1.36_Server\Server\Model\Module\Config\ConfigHelper.cs:line 28
+   at ETModel.ConfigHelper.GetText(String key) in D:\jacfit\1.1.36_Server\Server\Model\Module\Config\ConfigHelper.cs:line 33
+   at ETModel.ACategory`1.BeginInit() in D:\jacfit\1.1.36_Server\Unity\Assets\Model\Module\Config\ACategory.cs:line 28
+   at ETHotfix.ConfigComponentHelper.Load(ConfigComponent self) in D:\jacfit\1.1.36_Server\Server\Hotfix\Module\Config\ConfigComponentSystem.cs:line 61
+   at ETHotfix.ConfigComponentHelper.Awake(ConfigComponent self) in D:\jacfit\1.1.36_Server\Server\Hotfix\Module\Config\ConfigComponentSystem.cs:line 29
+   at ETHotfix.ConfigAwakeSystem.Awake(ConfigComponent self) in D:\jacfit\1.1.36_Server\Server\Hotfix\Module\Config\ConfigComponentSystem.cs:line 12
+   at ETModel.AwakeSystem`1.Run(Object o) in D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:line 39
+   at ETModel.EventSystem.Awake(Component component) in D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\EventSystem.cs:line 258 
+ Main at offset 11131 in file:line:column D:\jacfit\1.1.36_Server\Server\App\Program.cs:200:7
+AddComponent<K> at offset 570 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\Entity.cs:98:4
+CreateWithParent<T> at offset 501 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\ComponentFactory.cs:51:4
+Awake at offset 351 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\EventSystem.cs:258:6
+Error at offset 115 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Base\Log.cs:31:4
+Error at offset 58 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-07-10 18:34:20.0273 AllServer 0001 GoogleCredential 's serviceAccountKey.json doesnt exist on the path! 
+ Main at offset 11806 in file:line:column D:\jacfit\1.1.36_Server\Server\App\Program.cs:212:7
+AddComponent<K> at offset 570 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\Entity.cs:98:4
+CreateWithParent<T> at offset 501 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\ComponentFactory.cs:51:4
+Awake at offset 351 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\EventSystem.cs:258:6
+Run at offset 131 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\IAwakeSystem.cs:39:4
+Awake at offset 50 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Module\Entity\Firebase\FirebaseSystem.cs:11:13
+Awake at offset 672 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Module\Entity\Firebase\FirebaseComponent.cs:62:17
+Error at offset 76 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Base\Log.cs:36:4
+Error at offset 58 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-07-10 18:34:20.0960 AllServer 0001 System.Exception: ConfigComponent not found key: ETModel.RoadSetting
+   at ETHotfix.ConfigComponentHelper.GetAll(ConfigComponent self, Type type) in D:\jacfit\1.1.36_Server\Server\Hotfix\Module\Config\ConfigComponentSystem.cs:line 121
+   at ETHotfix.Event_SyncAllRoamingRoom.Run() in D:\jacfit\1.1.36_Server\Server\Hotfix\Event\Event_SyncAllRoamingRoom.cs:line 19
+   at ETModel.OneThreadSynchronizationContext.Post(SendOrPostCallback callback, Object state) in D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\OneThreadSynchronizationContext.cs:line 36 
+ Run at offset 238 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\EventSystem.cs:576:6
+Handle at offset 52 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Event\IEvent.cs:17:4
+Run at offset 203 in file:line:column <filename unknown>:0:0
+Start<TStateMachine> at offset 73 in file:line:column <filename unknown>:0:0
+MoveNext at offset 371 in file:line:column D:\jacfit\1.1.36_Server\Server\Hotfix\Event\Event_SyncAllRoamingRoom.cs:19:13
+SetException at offset 138 in file:line:column <filename unknown>:0:0
+ThrowAsync at offset 160 in file:line:column <filename unknown>:0:0
+Post at offset 232 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\OneThreadSynchronizationContext.cs:36:21
+Error at offset 115 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Base\Log.cs:31:4
+Error at offset 58 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
+2020-07-10 18:34:20.1215 AllServer 0001 System.Exception: http server error: 5 ---> System.Net.HttpListenerException: アクセスが拒否されました。
+   at System.Net.HttpListener.AddPrefixCore(String registeredPrefix)
+   at System.Net.HttpListener.AddAllPrefixes()
+   at System.Net.HttpListener.Start()
+   at ETModel.HttpComponent.Start() in D:\jacfit\1.1.36_Server\Server\Model\Module\Http\HttpComponent.cs:line 121
+   --- End of inner exception stack trace ---
+   at ETModel.HttpComponent.Start() in D:\jacfit\1.1.36_Server\Server\Model\Module\Http\HttpComponent.cs:line 127
+   at ETModel.HttpComponentComponentStartSystem.Start(HttpComponent self) in D:\jacfit\1.1.36_Server\Server\Model\Module\Http\HttpComponent.cs:line 33
+   at ETModel.StartSystem`1.Run(Object o) in D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\IStartSystem.cs:line 15
+   at ETModel.EventSystem.Start() in D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\EventSystem.cs:line 449 
+ Main at offset 13505 in file:line:column D:\jacfit\1.1.36_Server\Server\App\Program.cs:256:7
+Update at offset 84 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\EventSystem.cs:487:4
+Start at offset 367 in file:line:column D:\jacfit\1.1.36_Server\Unity\Assets\Model\Base\Object\EventSystem.cs:449:7
+Error at offset 115 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Base\Log.cs:31:4
+Error at offset 58 in file:line:column D:\jacfit\1.1.36_Server\Server\Model\Base\Logger\NLogAdapter.cs:31:4
+
