@@ -1,0 +1,8 @@
+{"_id":1,"zh_tw":"{0}接受了你的好友邀請!","en":"{0} has accepted your friend invitation!"}
+{"_id":2,"zh_tw":"{0}邀請你一起組隊!","en":"{0} invites you into team!"}
+{"_id":3,"zh_tw":"{0}預約了比賽並邀請你參加!剩餘時間: {1}。","en":"{0} reserves the racing and invites you! Remaining time: {1}."}
+{"_id":4,"zh_tw":"時","en":"Hour"}
+{"_id":5,"zh_tw":"分","en":"Minute"}
+{"_id":6,"zh_tw":"秒","en":"Second"}
+{"_id":7,"zh_tw":"{0}向你發出好友邀請!","en":"{0} sent a friend invitation to you!"}
+{"_id":8,"zh_tw":"{0}拒絕了你的好友邀請!","en":"{0} refused your friend invitation!"}

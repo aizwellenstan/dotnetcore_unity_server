@@ -1,0 +1,2 @@
+{"_id":1,"zh_tw_context":"伺服器將於<color=#FA5454FF>2020/03/29 15:00 (GMT+8)</color>進行例行維護<color=#DCBE49FF>30分鐘</color> ","en_context":"The server will perform routine maintenance for <color=#DCBE49FF>30 minutes</color> on <color=#FA5454FF>2020/03/29 15:00 (GMT+8)</color>"}
+{"_id":2,"zh_tw_context":"FB分享抽好禮，詳情請見<color=#DCBE49FF>Jacfit</color>官方粉絲團","en_context":"FB share lucky gift, please see <color=#DCBE49FF>Jacfit</color> official fan club for details"}

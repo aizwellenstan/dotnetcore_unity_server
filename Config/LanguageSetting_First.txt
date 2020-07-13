@@ -1,0 +1,14 @@
+{"_id":1,"zh_tw":"確定","en":"OK"}
+{"_id":2,"zh_tw":"取消","en":"Cancel"}
+{"_id":3,"zh_tw":"提示","en":"Hint"}
+{"_id":4,"zh_tw":"將下載額外更新檔，在3G/4G環境下會造成流量，請問是否繼續?","en":"Additional update files will be downloaded, which will cause network traffic under the 3G / 4G environment. Do you want to continue?"}
+{"_id":5,"zh_tw":"取得伺服器資訊","en":"Get server information"}
+{"_id":6,"zh_tw":"檢查更新檔案","en":"Check for update files"}
+{"_id":7,"zh_tw":"下載更新檔案","en":"Download update file"}
+{"_id":8,"zh_tw":"確認檔案中","en":"Confirmation file"}
+{"_id":9,"zh_tw":"提示","en":"Hint"}
+{"_id":10,"zh_tw":"與伺服器連線失敗，是否重新連線?","en":"Fail to connect server, please try again!"}
+{"_id":11,"zh_tw":"離開遊戲","en":"Exit"}
+{"_id":12,"zh_tw":"重試","en":"Retry"}
+{"_id":13,"zh_tw":"請更新到最新版本後再重新開啟Jacfit","en":"Please update to the latest version of Jacfit then restart it."}
+{"_id":14,"zh_tw":"伺服器關閉中，請稍後在試","en":"Server close,please try again later !"}

@@ -1,0 +1,279 @@
+{"_id":1,"zh_tw":"確定","en":"OK"}
+{"_id":2,"zh_tw":"取消","en":"Cancel"}
+{"_id":3,"zh_tw":"套用","en":"Apply"}
+{"_id":4,"zh_tw":"離開","en":"Leave"}
+{"_id":5,"zh_tw":"更新列表","en":"Refresh"}
+{"_id":6,"zh_tw":"按英文字母排序","en":"Sort"}
+{"_id":7,"zh_tw":"返回","en":"Return"}
+{"_id":8,"zh_tw":"一月","en":"January"}
+{"_id":9,"zh_tw":"二月","en":"February"}
+{"_id":10,"zh_tw":"三月","en":"March"}
+{"_id":11,"zh_tw":"四月","en":"April"}
+{"_id":12,"zh_tw":"五月","en":"May"}
+{"_id":13,"zh_tw":"六月","en":"June"}
+{"_id":14,"zh_tw":"七月","en":"July"}
+{"_id":15,"zh_tw":"八月","en":"August"}
+{"_id":16,"zh_tw":"九月","en":"September"}
+{"_id":17,"zh_tw":"十月","en":"October"}
+{"_id":18,"zh_tw":"十一月","en":"November"}
+{"_id":19,"zh_tw":"十二月","en":"December"}
+{"_id":20,"zh_tw":"星期一","en":"Monday"}
+{"_id":21,"zh_tw":"星期二","en":"Tuesday"}
+{"_id":22,"zh_tw":"星期三","en":"Wednesday"}
+{"_id":23,"zh_tw":"星期四","en":"Thursday"}
+{"_id":24,"zh_tw":"星期五","en":"Friday"}
+{"_id":25,"zh_tw":"星期六","en":"Saturday"}
+{"_id":26,"zh_tw":"星期日","en":"Sunday "}
+{"_id":27,"zh_tw":"帳號資訊同步錯誤，請重新登入!","en":"Account is not correct, please login again! "}
+{"_id":28,"zh_tw":"玩家資訊同步錯誤，請重新登入!","en":"Player information sync error, please log in again!"}
+{"_id":29,"zh_tw":"操作失敗! 請檢察網路是否正確連接! ({0})","en":"Operation failed! Please check internet status! ({0}) "}
+{"_id":30,"zh_tw":"是","en":"Yes"}
+{"_id":31,"zh_tw":"否","en":"No"}
+{"_id":32,"zh_tw":"無法連線到網路，請檢查網路狀態!","en":"Internet is not available, please check system setting."}
+{"_id":33,"zh_tw":"伺服器正在維護中，請稍後在試!","en":"Server is under maintenance, please try it later!"}
+{"_id":34,"zh_tw":"該在帳號已在其他設備登入，如有問題請聯繫客服人員!","en":"This account is already logged in on other devices, please contact customer service if you have any questions!"}
+{"_id":35,"zh_tw":"已推出新版本，請從商店下載更新!","en":"A new version has been released, please download the update from the store!"}
+{"_id":36,"zh_tw":"斷線前已加入隊伍，請問是否返回?","en":"I joined the team before the disconnection. May I return?"}
+{"_id":37,"zh_tw":"斷線前已加入比賽，請問是否返回?","en":"I joined the competition before the disconnection. May I return?"}
+{"_id":38,"zh_tw":"伺服器關閉，請稍後在試!","en":"Server close, please try it later!"}
+{"_id":10000,"zh_tw":"準備室","en":"Outfit"}
+{"_id":10001,"zh_tw":"漫騎","en":"Roaming"}
+{"_id":10002,"zh_tw":"揪團(私人)","en":"Party(Private)"}
+{"_id":10003,"zh_tw":"公開賽","en":"Tournament"}
+{"_id":10100,"zh_tw":"設定","en":"Setting"}
+{"_id":10101,"zh_tw":"音樂","en":"Music"}
+{"_id":10102,"zh_tw":"音效","en":"Audio"}
+{"_id":10103,"zh_tw":"語言","en":"Language"}
+{"_id":10104,"zh_tw":"您需要重新開啟JPlay，變更語言才會生效","en":"Restart JPlay to make language change. "}
+{"_id":10105,"zh_tw":"揚聲器","en":"Speaker"}
+{"_id":10106,"zh_tw":"麥克風","en":"Microphone"}
+{"_id":10107,"zh_tw":"語音設定","en":"Voice Setting"}
+{"_id":10108,"zh_tw":"連接Facebook帳號","en":"Continue with Facebook"}
+{"_id":10109,"zh_tw":"已綁定Facebook帳號","en":"Synced Facebook Account"}
+{"_id":10110,"zh_tw":"連接Apple帳號","en":"Continue with Apple"}
+{"_id":10111,"zh_tw":"已綁定Apple帳號","en":"Synced Apple Account"}
+{"_id":10200,"zh_tw":"名稱","en":"Name"}
+{"_id":10201,"zh_tw":"生日","en":"Birthday"}
+{"_id":10202,"zh_tw":"地區","en":"Location"}
+{"_id":10203,"zh_tw":"性別","en":"Gender"}
+{"_id":10204,"zh_tw":"身高","en":"Height"}
+{"_id":10205,"zh_tw":"體重","en":"Weight"}
+{"_id":10206,"zh_tw":"不公開","en":"Private"}
+{"_id":10207,"zh_tw":"男","en":"Male"}
+{"_id":10208,"zh_tw":"女","en":"Female"}
+{"_id":10209,"zh_tw":"競賽單筆紀錄","en":"Turnaments Each Record"}
+{"_id":10210,"zh_tw":"總騎乘紀錄","en":"Total Record"}
+{"_id":10211,"zh_tw":"個人資訊","en":"Profile"}
+{"_id":10212,"zh_tw":"玩家名稱限制為中文2~8個字，英文2~16個字，且不能使用包括空格等特殊文字","en":"The player name is limited to 2-8 characters in Chinese and 2-16 characters in English, and cannot use special characters including spaces"}
+{"_id":10213,"zh_tw":"請輸入合理的身高","en":"Please enter a reasonable height."}
+{"_id":10214,"zh_tw":"請輸入合理的體重","en":"Please enter a reasonable weight."}
+{"_id":10215,"zh_tw":"開始日期","en":"Start Date"}
+{"_id":10216,"zh_tw":"騎乘里程","en":"Mileage"}
+{"_id":10217,"zh_tw":"騎乘時數","en":"Total riding time"}
+{"_id":10218,"zh_tw":"平均時速","en":"Average speed"}
+{"_id":10219,"zh_tw":"最高時速","en":"Maximum speed"}
+{"_id":10220,"zh_tw":"最佳名次","en":"Rank"}
+{"_id":10221,"zh_tw":"無紀錄","en":"None"}
+{"_id":10222,"zh_tw":"{0:F2}小時","en":"{0:F2}Hours"}
+{"_id":10223,"zh_tw":"{0:F2}公里/時","en":"{0:F2}km/hr"}
+{"_id":10224,"zh_tw":"總消耗卡路里 ","en":"Calories"}
+{"_id":10225,"zh_tw":"總功耗","en":"Power"}
+{"_id":10226,"zh_tw":"平均功耗","en":"Average Power"}
+{"_id":10227,"zh_tw":"第{0}名","en":"Rank {0}"}
+{"_id":10228,"zh_tw":"{0:F2}瓦","en":"{0:F2}w"}
+{"_id":10229,"zh_tw":"{0:F2}千卡","en":"{0:F2}kcal"}
+{"_id":10230,"zh_tw":"第1名","en":"Rank 1"}
+{"_id":10231,"zh_tw":"第2名","en":"Rank 2"}
+{"_id":10232,"zh_tw":"第3名","en":"Rank 3"}
+{"_id":10233,"zh_tw":"第4名","en":"Rank 4"}
+{"_id":10234,"zh_tw":"第5名","en":"Rank 5"}
+{"_id":10235,"zh_tw":"第6名","en":"Rank 6"}
+{"_id":10236,"zh_tw":"第7名","en":"Rank 7"}
+{"_id":10237,"zh_tw":"第8名","en":"Rank 8"}
+{"_id":10238,"zh_tw":"漫騎單筆紀錄","en":"Roaming Each Record"}
+{"_id":10239,"zh_tw":"總圈數","en":"Total laps"}
+{"_id":10240,"zh_tw":"{0}","en":"{0}"}
+{"_id":10241,"zh_tw":"設定大頭貼","en":"Profile Picture Setting"}
+{"_id":10300,"zh_tw":"來自{0}的組隊邀請","en":"Invitation from {0}"}
+{"_id":10301,"zh_tw":"邀請列表","en":"Invitation list"}
+{"_id":10302,"zh_tw":"接受","en":"Accept"}
+{"_id":10303,"zh_tw":"拒絕","en":"Refuse"}
+{"_id":10304,"zh_tw":"全部拒絕","en":"Refuse All"}
+{"_id":10305,"zh_tw":"找不到該邀請，請刷新後再確認一次!","en":"Can't find the invitation, please refresh list and check it again!"}
+{"_id":10306,"zh_tw":"邀請錯誤，請刷新後再確認一次!","en":"Invitation error, please refresh list and check it again!"}
+{"_id":10400,"zh_tw":"{0}的預約","en":"{0}'s  reservation"}
+{"_id":10401,"zh_tw":"預約列表","en":"Reservation list"}
+{"_id":10402,"zh_tw":"非發起人","en":"Not Initiator"}
+{"_id":10403,"zh_tw":"最多同時只能預約5場競賽!","en":"You can't book more than 5 parties!"}
+{"_id":10404,"zh_tw":"您並非發起人，無法進行此操作!","en":"Invalid operation! Since you are not the initiator."}
+{"_id":10405,"zh_tw":"該房間競賽已開始無法解除預約!","en":"The reservation can't be cancel since the racing already begun!"}
+{"_id":10406,"zh_tw":"找不到該預約，請刷新後再確認!","en":"Can't find the reservation, please refresh list and check it again!"}
+{"_id":10407,"zh_tw":"指定時間前1小時才開放進入預約房間!","en":"It's allow to access the reservation room only 1 hour before the designated time!"}
+{"_id":10408,"zh_tw":"預約資訊錯誤，請重新確認!","en":"Reservation error, please refresh list and check it again!"}
+{"_id":11600,"zh_tw":"準備室","en":"Outfit"}
+{"_id":11601,"zh_tw":"人物選擇","en":"Select"}
+{"_id":11602,"zh_tw":"替換","en":"Change"}
+{"_id":11800,"zh_tw":"進入房間","en":"Enter"}
+{"_id":11801,"zh_tw":"建立新房間","en":"Create Party"}
+{"_id":11802,"zh_tw":"建立","en":"Create"}
+{"_id":11803,"zh_tw":"開始","en":"Start"}
+{"_id":11804,"zh_tw":"解散","en":"Disband"}
+{"_id":11805,"zh_tw":"路線 : ","en":"Scene : "}
+{"_id":11806,"zh_tw":"發起人 : ","en":"Initiator : "}
+{"_id":11807,"zh_tw":"路線長度 : ","en":"Track length : "}
+{"_id":11808,"zh_tw":"開始時間 : ","en":"Start time : "}
+{"_id":11809,"zh_tw":"人數上限 : ","en":"Members limit : "}
+{"_id":11810,"zh_tw":"競賽時間 :","en":"Racing time : "}
+{"_id":11811,"zh_tw":"已進入人員","en":"Joined"}
+{"_id":11812,"zh_tw":"可邀請","en":"Available"}
+{"_id":11813,"zh_tw":"預約","en":"Reservation"}
+{"_id":11814,"zh_tw":"預約時間","en":"Reservation Time"}
+{"_id":11815,"zh_tw":"時","en":"Hour"}
+{"_id":11816,"zh_tw":"分","en":"Minute"}
+{"_id":11817,"zh_tw":"已邀請好友","en":"Invited"}
+{"_id":11818,"zh_tw":"立即揪團","en":"Immediately Party"}
+{"_id":11819,"zh_tw":"預約揪團","en":"Reservation Party"}
+{"_id":11820,"zh_tw":"開始時間必須比現在時間晚3分鐘以上!","en":"The start time must be more than 3 minutes later than the current time!"}
+{"_id":11821,"zh_tw":"離開後就無法回到賽程，是否確定離開?","en":"It can't join again, do you confirm to leave?"}
+{"_id":11822,"zh_tw":"{0}後自動開始","en":"{0} will auto start"}
+{"_id":11823,"zh_tw":"立即開始","en":"Immediately"}
+{"_id":11824,"zh_tw":"{0:F2}公里","en":"{0:F2}km"}
+{"_id":11825,"zh_tw":"預約揪團成功! 可以再預約列表中進行查詢。","en":"The reservation party is ready! You can check the reservation list."}
+{"_id":11826,"zh_tw":"您已被踢出隊伍!","en":"You have been kicked out of the party!"}
+{"_id":11827,"zh_tw":"發起人解散隊伍!","en":"The initiator disbands the party!"}
+{"_id":11828,"zh_tw":"{0}的隊伍","en":"{0}'s party"}
+{"_id":11829,"zh_tw":"即將開始騎乘","en":"Party start soon"}
+{"_id":11830,"zh_tw":"鄉村地形","en":"Rural"}
+{"_id":11831,"zh_tw":"現代城市","en":"City"}
+{"_id":11832,"zh_tw":"繽紛雪景","en":"Snow"}
+{"_id":11833,"zh_tw":"寂靜沙漠","en":"Desert"}
+{"_id":11834,"zh_tw":"蔚藍海岸","en":"Coastal"}
+{"_id":11835,"zh_tw":"炙熱火山","en":"Volcanic"}
+{"_id":11836,"zh_tw":"活力高原","en":"Plain"}
+{"_id":11837,"zh_tw":"找不到該組隊，請更新列表後再嘗試!","en":"Can't find the party, please update the list and try again!"}
+{"_id":11838,"zh_tw":"組隊類型異動，請更新列表後再嘗試!","en":"Party type changed, please update the list and try again!"}
+{"_id":11839,"zh_tw":"組隊資訊異動，請更新列表後再嘗試!","en":"Party information changed, please update the list and try again!"}
+{"_id":11840,"zh_tw":"只有發起人才能進行此操作!","en":"Only the initiator can make this operation!"}
+{"_id":11841,"zh_tw":"目前狀態無法開始揪團!","en":"The current state can't init party!"}
+{"_id":11842,"zh_tw":"目前狀態無法踢除好友!","en":"The current state cannot kick out the friend!"}
+{"_id":11843,"zh_tw":"剔除失敗，找不到該好友!","en":"Cancellation failed, can not find the friend!"}
+{"_id":11844,"zh_tw":"目前狀態無法邀請新好友!","en":"Current status cannot invite new friend!"}
+{"_id":11845,"zh_tw":"邀請失敗，找不到該好友!","en":"The invitation failed and the friend could not be found!"}
+{"_id":11846,"zh_tw":"加入組隊失敗，成員已滿!","en":"Joining the party failed, the members are full!"}
+{"_id":11847,"zh_tw":"加入組隊失敗，該組隊已開始!","en":"Joining the party failed, the party has began!"}
+{"_id":11848,"zh_tw":"{0}的預約隊伍","en":"{0}'s reservation party"}
+{"_id":11849,"zh_tw":"請等候房主啟動競賽!","en":"Please wait for the initiator to start the racing!"}
+{"_id":11850,"zh_tw":"參加","en":"Join"}
+{"_id":11851,"zh_tw":"就緒","en":"Ready"}
+{"_id":11852,"zh_tw":"需等待所有成員準備好才能開始競賽!","en":"Wait for all members to be ready before starting the racing!"}
+{"_id":11853,"zh_tw":"極地凍原","en":"Arctic"}
+{"_id":11854,"zh_tw":"載入時間過久，請檢查網路並重啟Jacfit","en":"The loading time is too long, please check the internet and restart Jacfit"}
+{"_id":11855,"zh_tw":"目前團數過多，請稍後再試!","en":"Too many parties now, please try it later!"}
+{"_id":11856,"zh_tw":"目前此場景人數過多，請嘗試其他場景! ","en":"Too many players in current scene, please try another scene!"}
+{"_id":12000,"zh_tw":"清除暫存資料...","en":"Deleteing cache data…"}
+{"_id":12001,"zh_tw":"載入更新檔...","en":"Loading bundle…"}
+{"_id":12002,"zh_tw":"載入場景...","en":"Loading scene…"}
+{"_id":12003,"zh_tw":"載入音樂...","en":"Loading music…"}
+{"_id":12004,"zh_tw":"載入介面...","en":"Loading UI…"}
+{"_id":12005,"zh_tw":"初始化資料...","en":"Initialize cache data…"}
+{"_id":12006,"zh_tw":"連接伺服器...","en":"Connecting to server…"}
+{"_id":12007,"zh_tw":"實時語音初始化...","en":"Real-time voice initialization..."}
+{"_id":12008,"zh_tw":"等待其他好友…","en":"Waiting for other friends…"}
+{"_id":12100,"zh_tw":"功率","en":"Power"}
+{"_id":12101,"zh_tw":"卡路里","en":"Calories"}
+{"_id":12102,"zh_tw":"電池","en":"Battery"}
+{"_id":12103,"zh_tw":"高度","en":"Altitude"}
+{"_id":12104,"zh_tw":"全體車手","en":"All Player"}
+{"_id":12105,"zh_tw":"附近車手","en":"Near Player"}
+{"_id":12106,"zh_tw":"騎乘表現","en":"Ride performance"}
+{"_id":12107,"zh_tw":"公里/時","en":"km/hr"}
+{"_id":12108,"zh_tw":"公里","en":"km"}
+{"_id":12109,"zh_tw":"是否返回到大廳?","en":"Back to lobby?"}
+{"_id":12110,"zh_tw":"參賽者","en":"Participants"}
+{"_id":12111,"zh_tw":"開始","en":"START"}
+{"_id":12112,"zh_tw":"設備斷線","en":"Device Disconnected"}
+{"_id":12113,"zh_tw":"參賽者 ","en":"Participants "}
+{"_id":12114,"zh_tw":"時間 (時:分:秒)","en":"Time (h:m:s)"}
+{"_id":12115,"zh_tw":"速度 (公里/時)","en":"Speed (km/hr)"}
+{"_id":12116,"zh_tw":"卡路里 (大卡)","en":"Calories (kCal)"}
+{"_id":12117,"zh_tw":"里程 (公里)","en":"Distance (km)"}
+{"_id":12118,"zh_tw":"高度 (公尺)","en":"Altitude (m)"}
+{"_id":12119,"zh_tw":"功率 (瓦)","en":"Power (w)"}
+{"_id":12120,"zh_tw":"是否儲存這次騎乘紀錄?","en":"Do you want to save this riding record?"}
+{"_id":12200,"zh_tw":"開始頁面","en":"Start Page"}
+{"_id":12201,"zh_tw":"確認送出","en":"Submit"}
+{"_id":12202,"zh_tw":"註冊","en":"Sign up"}
+{"_id":12203,"zh_tw":"電子信箱","en":"E-Mail"}
+{"_id":12204,"zh_tw":"密碼","en":"Password"}
+{"_id":12205,"zh_tw":"確認密碼","en":"Confirmation"}
+{"_id":12206,"zh_tw":"註冊新帳號","en":"Sign up"}
+{"_id":12207,"zh_tw":"帳號登錄","en":"Login"}
+{"_id":12208,"zh_tw":"請輸入電子信箱","en":"Please input email"}
+{"_id":12209,"zh_tw":"請輸入密碼","en":"Please input password"}
+{"_id":12210,"zh_tw":"請再一次輸入密碼","en":"Please input password again"}
+{"_id":12211,"zh_tw":"Facebook登錄","en":"Login with facebook"}
+{"_id":12212,"zh_tw":"或","en":"Or"}
+{"_id":12213,"zh_tw":"登錄","en":"Login"}
+{"_id":12214,"zh_tw":"繁體中文","en":"English"}
+{"_id":12215,"zh_tw":"請輕觸螢幕來開始","en":"Tap to start"}
+{"_id":12216,"zh_tw":"登出","en":"Logout"}
+{"_id":12217,"zh_tw":"帳號不存在","en":"This account doesn't exist."}
+{"_id":12218,"zh_tw":"密碼不正確","en":"The password is incorrect."}
+{"_id":12219,"zh_tw":"兩次輸入的密碼必須一致","en":"Both passwords must be consistent."}
+{"_id":12220,"zh_tw":"註冊成功","en":"Sigin up successfully."}
+{"_id":12221,"zh_tw":"該帳號已經被註冊過了","en":"This account already exists."}
+{"_id":12222,"zh_tw":"Facebook授權失敗，原因:{0}","en":"Facebook authorization failed,  reason:{0}."}
+{"_id":12223,"zh_tw":"不合法的Email格式","en":"Invalid email format."}
+{"_id":12224,"zh_tw":"不合法的密碼格式","en":"Invalid password format."}
+{"_id":12225,"zh_tw":"歡迎!","en":"Welcome!"}
+{"_id":12226,"zh_tw":"公告","en":"Announce!"}
+{"_id":12227,"zh_tw":"自動登入失敗!該帳戶已在別台設備上登入過","en":"Automatic login failed! The account has been logged in on another device."}
+{"_id":12228,"zh_tw":"Guest登錄","en":"Login with guest"}
+{"_id":12229,"zh_tw":"登入失敗，請重新確認!","en":"Login failed, please reconfirm!"}
+{"_id":12230,"zh_tw":"訪客登入失敗，請重新確認!","en":"Guest login failed, please reconfirm!"}
+{"_id":12231,"zh_tw":"綁定失敗，請重新登入!","en":"Link failed, please login again!"}
+{"_id":12232,"zh_tw":"綁定失敗，該平台已經綁定其他使用者!","en":"Link failed, the platform is already link to another user!"}
+{"_id":12300,"zh_tw":"返回","en":"Return"}
+{"_id":12301,"zh_tw":"我的好友","en":"My friends"}
+{"_id":12302,"zh_tw":"依里程排序","en":"Order by mileage"}
+{"_id":12303,"zh_tw":"刷新","en":"Refresh"}
+{"_id":12304,"zh_tw":"搜尋","en":"Search"}
+{"_id":12305,"zh_tw":"發現","en":"Explore"}
+{"_id":12306,"zh_tw":"好友","en":"Friend"}
+{"_id":12307,"zh_tw":"確定要建立好友關係?","en":"Are you sure you want to establish a friendship?"}
+{"_id":12308,"zh_tw":"確定要移除好友關係?","en":"Are you sure you want to delete a friendship?"}
+{"_id":12309,"zh_tw":"關係","en":"Relationship"}
+{"_id":12310,"zh_tw":"申請中","en":"Requested"}
+{"_id":12311,"zh_tw":"待確認","en":"To Confirm"}
+{"_id":12400,"zh_tw":"腳踏車類型","en":"Bike type"}
+{"_id":12401,"zh_tw":"連接設備 ","en":"Connect"}
+{"_id":12402,"zh_tw":"搜尋到的設備","en":"Device list"}
+{"_id":12403,"zh_tw":"室內車","en":"Indoor bike"}
+{"_id":12404,"zh_tw":"小折車","en":"Small bike"}
+{"_id":12405,"zh_tw":"登山車","en":"Mount bike"}
+{"_id":12406,"zh_tw":"您的系統尚未開啟藍牙，請先開啟","en":"Your system doesn’t  enable bluetooth, please turn it on."}
+{"_id":12407,"zh_tw":"您的系統尚未開啟GPS，請先開啟","en":"Your system doesn’t  enable GPS, please turn it on."}
+{"_id":12408,"zh_tw":"公路車","en":"Road bike"}
+{"_id":12409,"zh_tw":"忽略","en":"Skip"}
+{"_id":12410,"zh_tw":"請選擇要連接的設備!","en":"Please choose the device to connect!"}
+{"_id":12411,"zh_tw":"藍芽設定","en":"Bluetooth Setting"}
+{"_id":12412,"zh_tw":"該設備已經被連接上了!","en":"Device is already connected!"}
+{"_id":12413,"zh_tw":"連接設備逾時!請檢查設備是否在線","en":"Connecting device time out! Please check if device is available."}
+{"_id":12600,"zh_tw":"上一頁","en":"Next"}
+{"_id":12601,"zh_tw":"下一頁","en":"Previous"}
+{"_id":12602,"zh_tw":"請輸入正確的Uid","en":"Please input correct uid !"}
+{"_id":12603,"zh_tw":"時間已過，請返回大廳","en":"Time is Over，Please go back to Lobby"}
+{"_id":12604,"zh_tw":"再見","en":"Cya, lol"}
+{"_id":12605,"zh_tw":"你累了嗎","en":"Exausted?"}
+{"_id":12606,"zh_tw":"我要超越你","en":"I'll  catch  you up"}
+{"_id":12607,"zh_tw":"跟上我","en":"Keep up with me"}
+{"_id":12608,"zh_tw":"加速","en":"Speed up!"}
+{"_id":12609,"zh_tw":"等我啦","en":"Wait for me!"}
+{"_id":12610,"zh_tw":"你太強了","en":"You rock!"}
+{"_id":12611,"zh_tw":"加油喔","en":"You can do it!"}
+{"_id":12612,"zh_tw":"保持下去","en":"Keep it up!"}
+{"_id":12613,"zh_tw":"減肥萬歲","en":"Burning Fat!"}
+{"_id":12625,"zh_tw":"難度","en":"Difficulty"}
+{"_id":12626,"zh_tw":"低","en":"Easy"}
+{"_id":12627,"zh_tw":"中","en":"Moderate"}
+{"_id":12628,"zh_tw":"高","en":"Hight"}
